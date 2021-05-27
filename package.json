@@ -1,0 +1,39 @@
+{
+  "name": "woocommerce-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "arrowParens": "always"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@changesets/changelog-github": "^0.2.7",
+    "@changesets/cli": "^2.12.0",
+    "@frontity/core": "^1.9.1",
+    "@frontity/html2react": "^1.5.0",
+    "@frontity/source": "^1.4.0",
+    "@frontity/tiny-router": "^1.2.4",
+    "@frontity/wp-source": "^1.10.0",
+    "@types/react": "^17.0.0",
+    "frontity": "^1.13.0",
+    "prettier": "^2.2.1",
+    "woocommerce-poc": "file:packages/woocommerce-poc",
+    "woocommerce-theme": "file:packages/woocommerce-theme"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "eeda8716d5de8046a967",
+  "publicPath": "/static/",
+  "outputPath": "/Users/quench/Documents/GitHub/woocommerce-proof-of-concept/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "woocommerce-poc": "woocommerce-poc.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 40365,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "woocommerce-poc.module.js",
+      "size": 5683746,
+      "chunks": [
+        "woocommerce-poc"
+      ],
+      "chunkNames": [
+        "woocommerce-poc"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "woocommerce-poc": {
+      "chunks": [
+        "woocommerce-poc"
+      ],
+      "assets": [
+        "woocommerce-poc.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "woocommerce-poc": {
+      "chunks": [
+        "woocommerce-poc"
+      ],
+      "assets": [
+        "woocommerce-poc.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
